@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Tilt+Warp&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Shantell+Sans:wght@700&display=swap');
+
+body{
+margin: 0;
+padding: 0;
+background-color: #111111;
+}
+.image{
+    cursor: pointer;
+    margin-left: 15px;
+    position: relative;
+    width: 50px;
+}
+.contact_top{
+    display: flex;
+    margin-top: 35px;
+    justify-content: center;
+    color: #fff;
+    font-family: 'Tilt Warp', cursive;
+    font-size: 24px;
+}
+.btn{
+    display: flex;
+    padding: 14px;
+    background: linear-gradient(to left, rgb(255 146 0) 0%, rgb(213, 156, 90) 100%);
+    color: #fff;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: none;
+
+}
+#btn{
+    display: flex;
+    justify-content: center;
+}
+.inp:hover{
+transform: scale(1.1);
+}
+.contact_form{
+    color: #fff;
+    display: flex;
+    margin-top: 50px ;
+    flex-direction: column;
+    align-items: center;
+}
+input[type="email"],
+input[type="password"],
+input[type="text"]
+{
+    background-color: rgb(49, 48, 48);
+}
+.input_group input{
+    padding: 25px 12px 8px;
+    border-radius: 15px;
+    width: 290px ;
+border: linear-gradient(to left, rgb(255 146 0) 0%, rgb(213, 156, 90) 100%);
+}
+#person_surname{
+    margin-left: 15px;
+}
+.inpt{
+    display: flex;
+    margin-top:15px;
+    width: 156px;
+    background: linear-gradient(to left, rgb(43, 40, 36) 0%, rgb(213, 156, 90) 100%);
+    border: 1px solid rgb(213, 156, 90);
+    font-family: 'Shantell Sans', cursive;
+}
+
+#person_name,
+#person_surname{
+    width: 227px;
+    color: #fff;
+}
+#person_email,
+#person_password
+{
+    color: #fff;
+    font-size: 10px;
+    margin-top: 25px;
+    width: 500px;
+}
+.acc{
+    display: flex;
+    color: #fff;
+justify-content: center;
+}
+.register{
+    margin-left: 15px;
+    color: #fff;
+    text-decoration: none;
+}
+.register:hover{
+    color:#CD853F;
+    text-decoration: underline;
+}

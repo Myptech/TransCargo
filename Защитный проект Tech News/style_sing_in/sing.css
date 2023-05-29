@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Tilt+Warp&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Shantell+Sans:wght@700&display=swap');
+
+body{
+margin: 0;
+padding: 0;
+background-color: #232121;
+}
+
+.image{
+    cursor: pointer;
+    margin-left: 15px;
+    position: relative;
+    width: 50px;
+}
+.img{
+    background: url(/images/sigma.jpg)no-repeat center center fixed;
+    -webkit-background-size: cover;
+    top: 10px;
+        -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-size: 100%;
+}
+.contact_top{
+    display: flex;
+    margin-top: 50px;
+    justify-content: center;
+    color: #fff;
+    font-family: 'Tilt Warp', cursive;
+    font-size: 24px;
+}
+
+.btn{
+    display: flex;
+    padding: 14px;
+    background: linear-gradient(to left, rgb(255 146 0) 0%, rgb(213, 156, 90) 100%);
+    color: #fff;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: none;
+}
+.inp:hover{
+transform: scale(1.1);
+}
+#btn{
+    display: flex;
+    justify-content: center;
+}
+.contact_form{
+    display: flex;
+    margin-top: 50px ;
+    flex-direction: column;
+    align-items: center;
+}
+.input_group{
+    margin-top: 15px;
+}
+.input_group input{
+    padding: 25px 12px 8px;
+    border-radius: 15px;
+    width: 290px;
+border: linear-gradient(to left, rgb(255 146 0) 0%, rgb(213, 156, 90) 100%);
+}
+input[type="email"],
+input[type="password"]
+{
+    color: #fff;
+    background-color: rgb(49, 48, 48);
+    border:1px solid #CD853F;
+}
+.inpt{
+    display: flex;
+    margin-top:17px;
+    width: 140px;
+    background: linear-gradient(to left, rgb(43, 40, 36) 0%, rgb(213, 156, 90) 100%);
+    border: 1px solid rgb(213, 156, 90);
+    font-family: 'Shantell Sans', cursive;
+}
+.inpt:hover{
+    outline: 2px solid rgb(213, 156, 90);
+}
+
+
+.acc{
+    display: flex;
+    color: #fff;
+justify-content: center;
+}
+.register{
+    margin-left: 15px;
+    color: #fff;
+    text-decoration: none;
+}
+.register:hover{
+    color:#CD853F;
+    text-decoration: underline;
+}
